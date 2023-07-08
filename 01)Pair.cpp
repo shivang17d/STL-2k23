@@ -49,3 +49,25 @@ int main(){
     
     return 0;
 }
+
+
+
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    
+    pair<int,int>p[3];
+    for(int i = 0 ; i < 3 ; i++) {
+        cin>>p[i].first>>p[i].second;
+    }
+    
+    for(auto &val : p){
+        cout<<val.first<<" "<<val.second<<endl;
+    }
+
+    return 0;
+}
